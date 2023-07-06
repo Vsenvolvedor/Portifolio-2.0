@@ -4,6 +4,23 @@
   outline: 0;
   box-sizing: border-box;
   text-decoration: none;
+  font-family: 'Open Sans', 'sans-serif';
   color: #000;
+}
 
+body {
+  background-color: #0E0E0E;
+  background-image: url("../images/bg-pattern.png");
+  background-repeat: repeat-y;
+  background-size: cover;
+  animation: animateBg 100s alternate infinite ease-in-out;
+}
+
+@keyframes animateBg {
+  from {
+    background-position: top;
+  }
+  to {
+    background-position: 0% 85%;
+  }
 }
