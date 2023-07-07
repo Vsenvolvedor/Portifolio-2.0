@@ -9,8 +9,16 @@
   list-style: none;
 }
 
+:root {
+
+  font-size: 62.5%;
+
+  --bg-color: #0E0E0E;
+  --contrast-color: #FFE600;
+}
+
 body {
-  background-color: #0E0E0E;
+  background-color: var(--bg-color);
   background-image: url("../images/bg-pattern.png");
   background-repeat: repeat-y;
   background-size: cover;
@@ -49,13 +57,13 @@ header {
   max-width: fit-content;
   overflow-x: hidden;
   font-family: "Silkscreen";
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 .nav-link::after {
   content: "";
   display: block;
-  background-color: #FFE600;
+  background-color: var(--contrast-color);
   width: 100%;
   height: 2px;
   transform: translateX(-100%);
@@ -63,7 +71,7 @@ header {
 }
 
 .nav-link:hover {
-  color: #FFE600;
+  color: var(--contrast-color);
 }
 
 .nav-link:hover::after {
@@ -85,5 +93,5 @@ header {
   height: 8px;
   background-image: url('../images/separator.png');
   background-position: center;
-  box-shadow: 0 0 5px #FFE600;
+  box-shadow: 0 0 5px var(--contrast-color);
 }
