@@ -8,7 +8,7 @@ const camera = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHei
 const renderer = new THREE.WebGLRenderer({
   alpha: true
 });
-renderer.setSize(500,400);
+renderer.setSize(500,350);
 app?.appendChild(renderer.domElement);
 
 camera.position.z = 6;
