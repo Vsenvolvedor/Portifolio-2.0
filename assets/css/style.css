@@ -93,6 +93,10 @@ header {
   height: 8px;
   background-image: url('../images/separator.png');
   background-position: center;
+}
+
+.before-separator.glow::before,
+.after-separator.glow::after {
   box-shadow: 0 0 5px var(--contrast-color);
 }
 
