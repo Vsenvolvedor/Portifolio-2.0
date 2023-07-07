@@ -95,3 +95,12 @@ header {
   background-position: center;
   box-shadow: 0 0 5px var(--contrast-color);
 }
+
+/* Sections */
+
+section {
+  max-width: 1280px;
+  padding: 0 90px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
