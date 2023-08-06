@@ -237,6 +237,16 @@ section {
   margin-bottom: 30px;
 }
 
+.tv-head {
+  position: relative;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.tv-head img {
+  display: block;
+}
+
 .tv-out-border,
 .tv-body {
   position: relative;
