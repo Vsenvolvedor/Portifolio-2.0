@@ -16,6 +16,8 @@
   --bg-color: #0E0E0E;
   --contrast-color: #FFE600;
   --bg-gradient: linear-gradient(60deg,#0BDD46 28%, #FAE633, #DE0E0E) 1;
+  --bg-vertical-gradient: linear-gradient(200deg,#0BDD46 28%, #FAE633, #DE0E0E) 1;
+
 }
 
 body {
@@ -269,4 +271,27 @@ section {
 
 .tv-out-border {
   padding: 15px;
+}
+
+.tv-body {
+  display: grid;
+  grid-template-columns: .5fr 1fr;
+}
+
+.tv-nav {
+  border-right: 4px solid ;
+  border-image: var(--bg-vertical-gradient);
+}
+
+.tv-nav li {
+  border-bottom: 4px solid;
+  border-image: var(--bg-vertical-gradient);
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+.tv-nav li h3 {
+  font-size: 1.6rem;
+  font-family: "Silkscreen";
+  font-weight: 400;
 }
