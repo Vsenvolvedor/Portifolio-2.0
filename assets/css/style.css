@@ -196,6 +196,7 @@ section {
   display: flex;
   align-items: center;
   font-size: 1.6rem;
+  font-weight: 400;
   font-family: "Silkscreen";
   text-transform: uppercase;
   transition: .2s ease-out;
