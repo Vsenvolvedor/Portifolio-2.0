@@ -229,3 +229,34 @@ section {
   max-width: 460px;
   text-indent: 15px;
 }
+
+/* Projects */
+
+#projects > h2 {
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.tv-out-border,
+.tv-body {
+  position: relative;
+}
+
+.tv-out-border::before,
+.tv-body::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 5px solid bisque;
+  border-image: var(--bg-gradient);
+  border-radius: 10px;
+  -webkit-mask: 
+  linear-gradient(#fff 0 0) padding-box, 
+  linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor; 
+  mask-composite: exclude; 
+}
+
+.tv-out-border {
+  padding: 15px;
+}
