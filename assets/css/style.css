@@ -307,3 +307,51 @@ section {
   font-family: "Silkscreen";
   font-weight: 400;
 }
+
+.tv-content {
+  padding: 15px 30px;
+  margin: 0 auto;
+}
+
+.project-image {
+  position: relative;
+  max-width: 582px;
+  margin: 0 auto;
+}
+
+.project-image-link {
+  display: block;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.project-image-link img {
+  transition: .5s ease-out;
+  opacity: .9;
+}
+
+.project-image-link img:hover {
+  transform: scale(1.1);
+  transition: .5s;
+  opacity: 1;
+}
+
+.project-external-link {
+  display: flex;
+  font-size: 1.2rem;
+  font-family: "Silkscreen";
+  background-color: #0E0E0E;
+  width: fit-content;
+  padding: 2px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  align-items: center;
+  gap: 5px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.project-external-link:hover {
+  color: var(--contrast-color);
+}
