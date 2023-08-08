@@ -442,6 +442,10 @@ section {
 
   /* Header */
 
+  header {
+    padding: 15px 30px;
+  }
+
   .nav-links.active .after-separator::after {
     display: none;
   }
@@ -494,3 +498,11 @@ section {
 
 }
 
+
+@media (max-width:360px) {
+
+  header {
+    padding: 15px;
+  }
+
+}
