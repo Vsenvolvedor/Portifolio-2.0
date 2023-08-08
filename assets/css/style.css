@@ -103,6 +103,61 @@ header {
   box-shadow: 0 0 5px var(--contrast-color);
 }
 
+#mobile-button {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: transparent;
+  border: none;
+  box-shadow: 0 2px 0 white;
+  position: relative;
+  cursor: pointer;
+  padding: 10px;
+  visibility: hidden;
+}
+
+#mobile-button::before {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  transition: .4s;
+}
+
+#mobile-button::after {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  top: 5px;
+  left: 0;
+  transition: .4s;
+}
+
+#mobile-button.active {
+  box-shadow: none;
+}
+
+#mobile-button.active::before {
+  top: 0;
+  transform: rotate(45deg);
+  transition: .4s;
+
+}
+
+#mobile-button.active::after {
+  transform: rotate(315deg);
+  top: 0;
+  transition: .4s;
+
+}
+
 /* Sections */
 
 section {
@@ -380,3 +435,20 @@ section {
   font-size: 1.4rem;
   max-width: 270px;
 }
+
+/* Responsive */
+
+@media (max-width:720px) {
+
+  /* Header */
+
+  .nav-links {
+    display: none;
+  }
+
+  #mobile-button {
+    visibility: visible;
+  }
+
+}
+
