@@ -486,25 +486,25 @@ section {
 
   /* Header */
 
-  .nav-links.active .after-separator::after {
+  header .nav-links.active .after-separator::after {
     display: none;
   }
 
-  .nav-links {
+  header .nav-links {
     position: absolute;
     top: 5%;
     left: 110%;
     visibility: hidden;
   }
 
-  .nav-links li {
+  header .nav-links li {
     display: flex;
     align-items: center;
     gap: 10px;
     margin-bottom: 10px;
   }
 
-  .nav-links li::before {
+  header .nav-links li::before {
     content: '';
     display: block;
     width: 8px;
@@ -513,7 +513,7 @@ section {
     background-position: center;
   }
 
-  .nav-links.active {
+  header .nav-links.active {
     display: block;
     top: 120px;
     left: 70%;
