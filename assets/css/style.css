@@ -225,6 +225,7 @@ section {
 
 .knowledges-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   gap: 30px;
 }
@@ -232,10 +233,19 @@ section {
 .know-container {
   height: 300px;
   overflow-y: scroll;
+  padding-right: 10px;
 }
 
 .know-container::-webkit-scrollbar {
-  display: none;
+  background-color: #ffffff11;
+  cursor: pointer;
+  width: 5px;
+}
+
+.know-container::-webkit-scrollbar-thumb {
+  display: block;
+  background-color: #F1E800;
+  border-radius: 10px;
 }
 
 .know-item {
@@ -437,6 +447,33 @@ section {
 }
 
 /* Responsive */
+
+@media (max-width: 1100px) {
+
+  /* Knowledge */
+
+  .know-container {
+    display: flex;
+    height: auto;
+    gap: 30px;
+    overflow-x: scroll;
+    overflow-y: visible;
+    padding-bottom: 10px;
+  }
+
+  .know-container::-webkit-scrollbar {
+    height: 5px;
+  }
+
+  .know-item {
+    min-width: 250px;
+    margin-bottom: 0;
+  }
+
+  .know-description > p {
+    max-width: 600px;
+  }
+}
 
 @media (max-width:720px) {
 
