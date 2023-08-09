@@ -440,11 +440,14 @@ section {
 
 @media (max-width:720px) {
 
-  /* Header */
+  /* Padding Screen config */
 
-  header {
+  header,
+  section {
     padding: 15px 30px;
   }
+
+  /* Header */
 
   .nav-links.active .after-separator::after {
     display: none;
@@ -501,8 +504,9 @@ section {
 
 @media (max-width:360px) {
 
-  header {
+  /* Padding Screen config */
+  header,
+  section {
     padding: 15px;
   }
-
 }
