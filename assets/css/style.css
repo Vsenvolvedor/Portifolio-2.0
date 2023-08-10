@@ -28,6 +28,11 @@ body {
   animation: animateBg 100s alternate infinite ease-in-out;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 @keyframes animateBg {
   from {
     background-position: top;
@@ -419,11 +424,23 @@ section {
 
 .project-tech-list {
   overflow-y: scroll;
+  padding-right: 10px;
   max-height: 200px;
 }
 
-.project-tech-list::-webkit-scrollbar {
-  display: none;
+.project-tech-list::-webkit-scrollbar,
+.tv-nav::-webkit-scrollbar {
+  background-color: #ffffff11;
+  cursor: pointer;
+  width: 5px;
+  height: 5px;
+}
+
+.project-tech-list::-webkit-scrollbar-thumb,
+.tv-nav::-webkit-scrollbar-thumb {
+  display: block;
+  background-color: #F1E800;
+  border-radius: 10px;
 }
 
 .project-tech-list li {
@@ -444,6 +461,7 @@ section {
 .project-info > p {
   font-size: 1.4rem;
   max-width: 270px;
+  text-indent: 15px;
 }
 
 /* Responsive */
@@ -473,6 +491,40 @@ section {
   .know-description > p {
     max-width: 600px;
   }
+
+  /* Projects */
+
+  .tv-body {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    overflow: hidden;
+  }
+
+  .tv-nav {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    border-bottom: 4px solid;
+    border-image: var(--bg-vertical-gradient);
+  }
+
+  .tv-nav > ul {
+    display: flex;
+    align-items: center;
+  }
+
+  .tv-nav > ul li {
+    border: none;
+    border-right: 4px solid;
+    border-image: var(--bg-vertical-gradient);
+    min-width: 300px;
+    padding: 15px 30px;
+  }
+
+  .tv-nav li:last-child {
+    border-right: none;
+    margin: 0px;
+  }
+
 }
 
 @media (max-width:720px) {
@@ -534,6 +586,28 @@ section {
 
   #mobile-button {
     visibility: visible;
+  }
+
+  /* Projects */
+
+  .tv-content {
+    padding: 15px;
+  }
+
+  .project-info {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    padding: 15px;
+  }
+
+  .project-info > p {
+    grid-row: 1;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .project-tech-list li {
+    padding: 15px;
   }
 
 }
