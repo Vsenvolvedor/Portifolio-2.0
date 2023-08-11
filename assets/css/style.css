@@ -545,6 +545,24 @@ section {
 
 @media (max-width:720px) {
 
+  /* Home */
+
+  #cube-animation-container {
+    display: none;
+  }
+
+  #about {
+    justify-content: center;
+  }
+
+  .about-paragraph {
+    max-width: 500px;
+  }
+
+  .subtitle.subtitle.right-align {
+    text-indent: 40px;
+  }
+
   /* Padding Screen config */
 
   header,
@@ -632,6 +650,16 @@ section {
 
 
 @media (max-width:360px) {
+
+  .title {
+    font-size: 2.4rem;
+  }
+
+  #about.nav-link, 
+  .subtitle {
+    font-size: 1.8rem;
+  }
+
 
   /* Padding Screen config */
   header,
