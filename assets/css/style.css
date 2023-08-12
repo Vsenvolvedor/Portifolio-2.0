@@ -348,6 +348,24 @@ section {
   transition: .2s ease-out;
 }
 
+.know-item.red > h3::before,
+.tv-nav li.red::before,
+.project-tech-list li.red::before {
+  background-color: #DE0E0E;
+}
+
+.know-item.blue > h3::before,
+.tv-nav li.blue::before,
+.project-tech-list li.blue::before {
+  background-color: #000AFF;
+}
+
+.know-item.green > h3::before,
+.tv-nav li.green::before,
+.project-tech-list li.green::before {
+  background-color: #00FF38;
+}
+
 .know-item.active > h3::before,
 .know-item:hover > h3::before,
 .tv-nav li:hover::before,
