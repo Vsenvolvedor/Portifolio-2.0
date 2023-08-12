@@ -4,7 +4,17 @@ export default function start() {
   function handleClick() {
     mobileBtn.classList.toggle('active');
     mobileMenu.classList.toggle('active');
-  }
+    window.addEventListener('click', outsideClick);
+  };
+
+  function outsideClick({target}) {
+    if(!mobileMenu.contains(target) && target !== mobileBtn) {
+      mobileBtn.classList.remove('active');
+      mobileMenu.classList.remove('active');
+      removeEventListener('click', outsideClick);
+    };
+
+  };
 
   mobileBtn.addEventListener("click", handleClick);
 };
