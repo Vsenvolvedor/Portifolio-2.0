@@ -26,6 +26,7 @@ body {
   background-repeat: repeat-y;
   background-size: cover;
   animation: animateBg 100s alternate infinite ease-in-out;
+  overflow-y: hidden;
 }
 
 img {
@@ -40,6 +41,30 @@ img {
   to {
     background-position: 0% 85%;
   }
+}
+
+/* Preload */
+
+#preload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 160px;
+  background-color: #0E0E0E;
+  background-image: url("../images/logo-spinning.gif");
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+#preload p {
+  font-size: 1.6rem;
+  font-family: "Silkscreen";
 }
 
 /* Header */
