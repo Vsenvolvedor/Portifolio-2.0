@@ -13,6 +13,5 @@ window.onresize = () => {
     startMobileMenu();
     alreadyOn = true;
   }
-  
-};
+ };
 startPreload();
