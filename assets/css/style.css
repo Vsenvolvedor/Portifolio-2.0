@@ -63,8 +63,40 @@ img {
 }
 
 #preload p {
+  display: flex;
+  align-items: end;
   font-size: 1.6rem;
   font-family: "Silkscreen";
+}
+
+#preload span {
+  display: block;
+  overflow-x: hidden;
+  width: 16px;
+
+}
+
+#preload span span {
+  transform: translateX(-12px);
+  animation: 1.8s dotsAnimator infinite normal;
+}
+
+@keyframes dotsAnimator {
+  0% {
+    transform: translateX(-12px);
+
+  }
+  25% {
+    transform: translateX(-8px);
+
+  }
+  50% {
+    transform: translateX(-4px);
+
+  }
+  100% {
+    transform: translateX(0px);
+  }
 }
 
 /* Header */
