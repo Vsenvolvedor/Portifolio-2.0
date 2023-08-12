@@ -5,9 +5,9 @@ export default function start() {
   const knowContainer = document.querySelector('.know-container');
   const knowDescriptionContainer = document.querySelector('.know-description');
 
-  know.forEach(item => {
+  know.forEach((item, index) => {
     knowContainer.innerHTML += `     
-    <li class="know-item" >
+    <li class="know-item ${index === 0 ? "active" : ""}" >
       <h3>
         ${item.title}
       </h3>
