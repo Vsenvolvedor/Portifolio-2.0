@@ -660,7 +660,7 @@ section {
     display: none;
     position: absolute;
     top: 5%;
-    left: 110%;
+    right: -110%;
     visibility: hidden;
   }
 
@@ -683,7 +683,7 @@ section {
   header .nav-links.active {
     display: block;
     top: 120px;
-    left: 70%;
+    right: 30px;
     visibility: visible;
     animation: .8s left-animation forwards;
   }
