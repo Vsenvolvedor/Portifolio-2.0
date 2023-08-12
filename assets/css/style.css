@@ -568,6 +568,24 @@ section {
 
 @media (max-width:720px) {
 
+  /* Home */
+
+  #cube-animation-container {
+    display: none;
+  }
+
+  #about {
+    justify-content: center;
+  }
+
+  .about-paragraph {
+    max-width: 500px;
+  }
+
+  .subtitle.subtitle.right-align {
+    text-indent: 40px;
+  }
+
   /* Padding Screen config */
 
   header,
