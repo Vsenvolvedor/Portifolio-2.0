@@ -1,7 +1,7 @@
 export const know = [
   {
     title: "ui/ux desing",
-    externalLink: "",
+    externalLink: null,
     about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus dolor nec leo convallis sagittis. Cras commodo facilisis massa, id luctus tellus suscipit at. Aliquam rutrum rhoncus odio, pretium tempor ipsum placerat id. Donec pellentesque eros vestibulum quam placerat viverra. Ut finibus laoreet tellus eget dictum. Cras cursus, elit mattis dapibus coavallis, elit nibh vestibulu elit nibh vestibulum velit, a eleifend sapien diam accumsan risus.m velit, a eleifend sapien diam accumsan risus."
   },
   {
