@@ -331,6 +331,7 @@ section {
 
 .know-item.active > h3,
 .know-item:hover > h3,
+.tv-nav li.active > h3,
 .tv-nav li:hover h3,
 .project-tech-list li:hover h3 {
   color: var(--contrast-color);
@@ -368,6 +369,7 @@ section {
 
 .know-item.active > h3::before,
 .know-item:hover > h3::before,
+.tv-nav li.active::before,
 .tv-nav li:hover::before,
 .project-tech-list li:hover::before {
   background-color: white;
