@@ -2,10 +2,12 @@ import startMobileMenu from "./MobileMenu.js";
 import startPreload from "./Preload.js";
 import startKnowChanger from "./knowChanger.js";
 import knowRender from "./render/knowRender.js";
+import projectsRender from "./render/projectsRender.js";
 
 // Render
 
 knowRender();
+projectsRender();
 
 // Js functions
 
