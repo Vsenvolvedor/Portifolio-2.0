@@ -461,8 +461,34 @@ section {
 
 .project-image-link {
   display: block;
+  width: 100%;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.486);
   border-radius: 5px;
   overflow: hidden;
+}
+
+.project-image-link::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: .4;
+  box-shadow: 0px 0px 80px 30px white;
+  animation: .8s loadingImageAnimation infinite ease-in-out;
+}
+
+.project-image-link.loaded::before {
+  display: none;
+}
+
+@keyframes loadingImageAnimation {
+  from {
+    transform: translateX(-100%);
+  }  
+  to {
+    transform: translateX(120%);
+  }
 }
 
 .project-image-link img {
@@ -636,6 +662,7 @@ section {
   }
 
   .project-image-link {
+    height: 150px;
     border-radius: 0px;
   }
 
