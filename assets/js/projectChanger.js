@@ -1,5 +1,6 @@
 import colorRandomizer from "./colorRandomizer.js";
 import { projects } from "./data/project-data.js";
+import { imageLoader } from "./imageLoader.js";
 
 export default function start() {
   const tvNavLinks = document.querySelectorAll('.tv-nav li');
@@ -32,7 +33,9 @@ export default function start() {
         </p>
       </div>
         `;
-        
+
+      imageLoader('.project-image-link');
+
       } else {
         link.classList.remove('active');
       }
