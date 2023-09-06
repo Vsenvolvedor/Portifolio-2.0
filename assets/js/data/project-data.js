@@ -48,6 +48,14 @@ export const projects = [
     techs: ["html", "css", "Javascript","NodeJS", "ExpressJS"]
   },
   {
+    title: "Portifólio 1.0",
+    link: "https://vsenvolvedor.github.io/portifolio/",
+    repoLink: "https://github.com/Vsenvolvedor/portifolio",
+    image: "assets/images/projects/portifolio-1.0.png",
+    about: "Primeiro portifólio que desenvolvi para mostrar meu projetos. Bastante interessante para comparar com o atual e ver a evolução",
+    techs: ["ui design","html", "css", "javascript"]
+  },
+  {
     title: "Animais Fantásticos",
     link: "https://vsenvolvedor.github.io/animais-fantasticos/",
     repoLink: "https://github.com/vsenvolvedor/animais-fantasticos",
