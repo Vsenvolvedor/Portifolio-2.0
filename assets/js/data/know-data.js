@@ -2,7 +2,7 @@ export const know = [
   {
     title: "ui/ux design",
     externalLink: null,
-    about: "Conhecimentos de boas práticas aplicadas ao desenvolvimento do design de interfaces(UI), sem esquecer de adicionar uma boa experiencia ao usuário apartir de boas práticas em UX."
+    about: "Conhecimentos de boas práticas aplicadas ao desenvolvimento do design de interfaces(UI), sem esquecer de adicionar uma boa experiência ao usuário apartir de boas práticas em UX."
   },
   {
     title: "html5",
@@ -32,12 +32,12 @@ export const know = [
   {
     title: "Git",
     externalLink: "https://git-scm.com/",
-    about: "Bons conhecimentos nos comando de Git porém ainda aperfeiçoando questões de boas práticas, principalmente na nomeação de commits. Alguns projetos mais antigos vão ter commits mal feitos."
+    about: "Bons conhecimentos nos comando de Git, porém ainda aperfeiçoando questões de boas práticas, principalmente na nomeação de commits. Alguns projetos mais antigos vão ter commits mal feitos."
   },
   {
     title: "react",
     externalLink: "https://react.dev/",
-    about: "Bons conhecimentos em react desde o desenvolvimento as questões de seu funcionamento e performace. Em meus projetos mais recentes de react sempre procuro não so fazer funcionar mas levar em conta ele funcionar da melhor forma."
+    about: "Bons conhecimentos em react, desde o desenvolvimento as questões de seu funcionamento e performace. Em meus projetos mais recentes de react sempre procuro não só fazer funcionar, mas levar em conta ele funcionar da melhor forma."
   },
   {
     title: "redux",
@@ -52,7 +52,7 @@ export const know = [
   {
     title: "nodejs",
     externalLink: "https://nodejs.org/pt-br/about",
-    about: "Bons conhecimentos em nodeJS, principalmente em quesitos de seus principais modulos base. Utilizei também nodeJS para práticas de lógica de programação por conta de maior facilidade."
+    about: "Bons conhecimentos em nodeJS, principalmente em quesitos de seus principais módulos base. Utilizei também nodeJS para práticas de lógica de programação por conta de maior facilidade."
   },
   {
     title: "expressjs",
@@ -62,11 +62,11 @@ export const know = [
   {
     title: "sql",
     externalLink: "https://developer.mozilla.org/pt-BR/docs/Web/CSS",
-    about: "Boa noçao de linguagem SQL tanto para leitura e busca de dados quanto para a inserção e criação de tabelas."
+    about: "Boa noção de linguagem SQL tanto para leitura e busca de dados quanto para a inserção e criação de tabelas."
   },
   {
     title: "Wordpress(cms)",
     externalLink: "https://br.wordpress.org/",
-    about: "Bons conhecimentos de wordpress principalmente na sua utilização como cms. Construçao de temas e personalização da API nativa do wordpress é meu domínio principal."
+    about: "Bons conhecimentos de wordpress principalmente na sua utilização como cms. Construção de temas e personalização da API nativa do wordpress é meu domínio principal."
   },
 ];
