@@ -1,67 +1,72 @@
 export const know = [
   {
-    title: "ui/ux desing",
+    title: "ui/ux design",
     externalLink: null,
-    about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus dolor nec leo convallis sagittis. Cras commodo facilisis massa, id luctus tellus suscipit at. Aliquam rutrum rhoncus odio, pretium tempor ipsum placerat id. Donec pellentesque eros vestibulum quam placerat viverra. Ut finibus laoreet tellus eget dictum. Cras cursus, elit mattis dapibus coavallis, elit nibh vestibulu elit nibh vestibulum velit, a eleifend sapien diam accumsan risus.m velit, a eleifend sapien diam accumsan risus."
+    about: "Conhecimentos de boas práticas aplicadas ao desenvolvimento do design de interfaces(UI), sem esquecer de adicionar uma boa experiencia ao usuário apartir de boas práticas em UX."
   },
   {
-    title: "html",
+    title: "html5",
     externalLink: "https://developer.mozilla.org/pt-BR/docs/Web/HTML",
-    about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus dolor nec leo convallis sagittis. Cras commodo facilisis massa, id luctus tellus suscipit at. Aliquam rutrum rhoncus odio, pretium tempor ipsum placerat id. Donec pellentesque eros vestibulum quam placerat viverra. Ut finibus laoreet tellus eget dictum. Cras cursus, elit mattis dapibus coavallis, elit nibh vestibulu elit nibh vestibulum velit, a eleifend sapien diam accumsan risus.m velit, a eleifend sapien diam accumsan risus."
+    about: "Boa base de conhecimentos em html5 utilizando dessa tecnologia não apenas para a construção de um html qualquer mas sim de um html semântico.Auxiliando no SEO e na boa indexação de páginas web."
   },
   {
-    title: "css",
+    title: "css3",
     externalLink: "https://developer.mozilla.org/pt-BR/docs/Web/CSS",
-    about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus dolor nec leo convallis sagittis. Cras commodo facilisis massa, id luctus tellus suscipit at. Aliquam rutrum rhoncus odio, pretium tempor ipsum placerat id. Donec pellentesque eros vestibulum quam placerat viverra. Ut finibus laoreet tellus eget dictum. Cras cursus, elit mattis dapibus coavallis, elit nibh vestibulu elit nibh vestibulum velit, a eleifend sapien diam accumsan risus.m velit, a eleifend sapien diam accumsan risus."
+    about: "Boa base em css para não só estilizar as páginas de forma qualquer mas ter domínio do que faz, podendo assim utilizar de boas técnicas na hora de construir páginas mais modernas e responsivas."
   },
   {
     title: "sass",
     externalLink: "https://sass-lang.com/",
-    about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus dolor nec leo convallis sagittis. Cras commodo facilisis massa, id luctus tellus suscipit at. Aliquam rutrum rhoncus odio, pretium tempor ipsum placerat id. Donec pellentesque eros vestibulum quam placerat viverra. Ut finibus laoreet tellus eget dictum. Cras cursus, elit mattis dapibus coavallis, elit nibh vestibulu elit nibh vestibulum velit, a eleifend sapien diam accumsan risus.m velit, a eleifend sapien diam accumsan risus."
+    about: "O conhecimento em SASS complementa o CSS3 tornando assim o desenvolvimendo mais dinâmico utilizando de conceitos de lógica em um código css."
   },
   {
     title: "JavaScript ES6+",
     externalLink: "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript",
-    about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus dolor nec leo convallis sagittis. Cras commodo facilisis massa, id luctus tellus suscipit at. Aliquam rutrum rhoncus odio, pretium tempor ipsum placerat id. Donec pellentesque eros vestibulum quam placerat viverra. Ut finibus laoreet tellus eget dictum. Cras cursus, elit mattis dapibus coavallis, elit nibh vestibulu elit nibh vestibulum velit, a eleifend sapien diam accumsan risus.m velit, a eleifend sapien diam accumsan risus."
+    about: "Bom domínio da linguagem JavaScript para um maior arsenal de possibilidades no momento de desenvolver. Vale salientar o principal, o conhecimento da base de lógica de programação presente em qualquer linguagem essa que auxilia ao desenvolver bons códigos em JS."
   },
   {
     title: "Typescript",
     externalLink: "https://www.typescriptlang.org/",
-    about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus dolor nec leo convallis sagittis. Cras commodo facilisis massa, id luctus tellus suscipit at. Aliquam rutrum rhoncus odio, pretium tempor ipsum placerat id. Donec pellentesque eros vestibulum quam placerat viverra. Ut finibus laoreet tellus eget dictum. Cras cursus, elit mattis dapibus coavallis, elit nibh vestibulu elit nibh vestibulum velit, a eleifend sapien diam accumsan risus.m velit, a eleifend sapien diam accumsan risus."
+    about: "Um complemento necessário a linguagem Javascript trazendo consigo principalmente a tipagem, o typescript auxilia o desenvolvimento principalmente quando se trabalha em grupos."
   },
   {
     title: "Git",
     externalLink: "https://git-scm.com/",
-    about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus dolor nec leo convallis sagittis. Cras commodo facilisis massa, id luctus tellus suscipit at. Aliquam rutrum rhoncus odio, pretium tempor ipsum placerat id. Donec pellentesque eros vestibulum quam placerat viverra. Ut finibus laoreet tellus eget dictum. Cras cursus, elit mattis dapibus coavallis, elit nibh vestibulu elit nibh vestibulum velit, a eleifend sapien diam accumsan risus.m velit, a eleifend sapien diam accumsan risus."
+    about: "Bons conhecimentos nos comando de Git porém ainda aperfeiçoando questões de boas práticas, principalmente na nomeação de commits. Alguns projetos mais antigos vão ter commits mal feitos."
   },
   {
     title: "react",
     externalLink: "https://react.dev/",
-    about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus dolor nec leo convallis sagittis. Cras commodo facilisis massa, id luctus tellus suscipit at. Aliquam rutrum rhoncus odio, pretium tempor ipsum placerat id. Donec pellentesque eros vestibulum quam placerat viverra. Ut finibus laoreet tellus eget dictum. Cras cursus, elit mattis dapibus coavallis, elit nibh vestibulu elit nibh vestibulum velit, a eleifend sapien diam accumsan risus.m velit, a eleifend sapien diam accumsan risus."
+    about: "Bons conhecimentos em react desde o desenvolvimento as questões de seu funcionamento e performace. Em meus projetos mais recentes de react sempre procuro não so fazer funcionar mas levar em conta ele funcionar da melhor forma."
   },
   {
     title: "redux",
     externalLink: "https://redux.js.org/",
-    about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus dolor nec leo convallis sagittis. Cras commodo facilisis massa, id luctus tellus suscipit at. Aliquam rutrum rhoncus odio, pretium tempor ipsum placerat id. Donec pellentesque eros vestibulum quam placerat viverra. Ut finibus laoreet tellus eget dictum. Cras cursus, elit mattis dapibus coavallis, elit nibh vestibulu elit nibh vestibulum velit, a eleifend sapien diam accumsan risus.m velit, a eleifend sapien diam accumsan risus."
+    about: "Conhecimentos básicos de redux, utilizei poucas vezes pois geralmente não foi necessário para os casos que poderia usar."
   },
   {
     title: "Bootstrap",
     externalLink: "https://getbootstrap.com/",
-    about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus dolor nec leo convallis sagittis. Cras commodo facilisis massa, id luctus tellus suscipit at. Aliquam rutrum rhoncus odio, pretium tempor ipsum placerat id. Donec pellentesque eros vestibulum quam placerat viverra. Ut finibus laoreet tellus eget dictum. Cras cursus, elit mattis dapibus coavallis, elit nibh vestibulu elit nibh vestibulum velit, a eleifend sapien diam accumsan risus.m velit, a eleifend sapien diam accumsan risus."
+    about: "Conhecimento básico de bootstrap, com o principal de saber ler sua documentação assim facilitando sua utilização."
   },
   {
     title: "nodejs",
     externalLink: "https://nodejs.org/pt-br/about",
-    about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus dolor nec leo convallis sagittis. Cras commodo facilisis massa, id luctus tellus suscipit at. Aliquam rutrum rhoncus odio, pretium tempor ipsum placerat id. Donec pellentesque eros vestibulum quam placerat viverra. Ut finibus laoreet tellus eget dictum. Cras cursus, elit mattis dapibus coavallis, elit nibh vestibulu elit nibh vestibulum velit, a eleifend sapien diam accumsan risus.m velit, a eleifend sapien diam accumsan risus."
+    about: "Bons conhecimentos em nodeJS, principalmente em quesitos de seus principais modulos base. Utilizei também nodeJS para práticas de lógica de programação por conta de maior facilidade."
+  },
+  {
+    title: "expressjs",
+    externalLink: "https://nodejs.org/pt-br/about",
+    about: "Bons conhecimentos de express, já o utilizei para fazer uma API REST para a prática de construção de um sistema básico de CRUD."
   },
   {
     title: "sql",
     externalLink: "https://developer.mozilla.org/pt-BR/docs/Web/CSS",
-    about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus dolor nec leo convallis sagittis. Cras commodo facilisis massa, id luctus tellus suscipit at. Aliquam rutrum rhoncus odio, pretium tempor ipsum placerat id. Donec pellentesque eros vestibulum quam placerat viverra. Ut finibus laoreet tellus eget dictum. Cras cursus, elit mattis dapibus coavallis, elit nibh vestibulu elit nibh vestibulum velit, a eleifend sapien diam accumsan risus.m velit, a eleifend sapien diam accumsan risus."
+    about: "Boa noçao de linguagem SQL tanto para leitura e busca de dados quanto para a inserção e criação de tabelas."
   },
   {
     title: "Wordpress(cms)",
     externalLink: "https://br.wordpress.org/",
-    about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus dolor nec leo convallis sagittis. Cras commodo facilisis massa, id luctus tellus suscipit at. Aliquam rutrum rhoncus odio, pretium tempor ipsum placerat id. Donec pellentesque eros vestibulum quam placerat viverra. Ut finibus laoreet tellus eget dictum. Cras cursus, elit mattis dapibus coavallis, elit nibh vestibulu elit nibh vestibulum velit, a eleifend sapien diam accumsan risus.m velit, a eleifend sapien diam accumsan risus."
+    about: "Bons conhecimentos de wordpress principalmente na sua utilização como cms. Construçao de temas e personalização da API nativa do wordpress é meu domínio principal."
   },
 ];
