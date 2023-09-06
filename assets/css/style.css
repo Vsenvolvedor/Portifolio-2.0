@@ -26,7 +26,6 @@ body {
   background-repeat: repeat-y;
   background-size: cover;
   animation: animateBg 100s alternate infinite ease-in-out;
-  overflow-y: hidden;
 }
 
 img {
@@ -443,6 +442,8 @@ section {
 .tv-nav {
   border-right: 4px solid ;
   border-image: var(--bg-vertical-gradient);
+  overflow-y: scroll;
+  max-height: 460px;
 }
 
 .tv-nav li {
