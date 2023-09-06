@@ -56,7 +56,7 @@ export const know = [
   },
   {
     title: "expressjs",
-    externalLink: "https://nodejs.org/pt-br/about",
+    externalLink: "https://expressjs.com/pt-br/",
     about: "Bons conhecimentos de express, já o utilizei para fazer uma API REST para a prática de construção de um sistema básico de CRUD."
   },
   {
