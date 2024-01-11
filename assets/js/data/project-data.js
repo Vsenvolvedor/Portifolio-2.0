@@ -4,7 +4,10 @@ export const projects = [
     link: "https://sakuraxclash.com/",
     repoLink: "",
     image: "assets/images/projects/sakuraxclash.png",
-    about: "Site feito para o game de luta sXc. Com o objetivo de ser uma wiki e apresentar parte do projeto do game.",
+    about: `Um site dinâmico que atua como uma wiki interativa para um emocionante jogo de luta. 
+    O design único foi concebido do zero, proporcionando uma experiência visual envolvente 
+    e coesa. Utilizando React, criei uma interface dinâmica que facilita a navegação e 
+    tomei decisões cuidadosas para permitir a personalização do conteúdo pelos autores.`,
     techs: ["ui/ux design","html", "css", "css modules", "typescript", "react", "wordpress(cms)"]
   },
   {
