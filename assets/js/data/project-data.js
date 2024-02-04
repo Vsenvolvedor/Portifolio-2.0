@@ -11,6 +11,14 @@ export const projects = [
     techs: ["ui/ux design","html", "css", "css modules", "typescript", "react", "wordpress(cms)"]
   },
   {
+    title: "Offbook",
+    link: "https://github.com/Vsenvolvedor/Offbook",
+    repoLink: "https://github.com/Vsenvolvedor/Offbook",
+    image: "assets/images/projects/offbook.png",
+    about: "Offbook é um aplicativo desktop. Ele fornece uma interface intuitiva para organizar e acessar PDFs de forma conveniente, permitindo aos usuários uma experiência melhorada na visualização de seus documentos.",
+    techs: ["typescript", "react", "tauri", "rust"]
+  },  
+  {
     title: "Gestoja",
     link: "https://github.com/vsenvolvedor/gestor-de-loja",
     repoLink: "https://github.com/vsenvolvedor/gestor-de-loja",
